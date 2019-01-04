@@ -107,8 +107,8 @@ ul.note-actions a {
     top: 15px;
     right: 15px;
     z-index:100000;
-    min-width :500px;
-    max-width: 500px;
+    min-width :450px;
+    max-width: 450px;
     color: black;
     border-radius:0;
 }
@@ -118,9 +118,18 @@ ul.note-actions a {
     border: 5px solid #006435;
 }
 
-.toast-header { background-color: #E5EFEB; color: black;}
+.toast-normal {
+    background-color: #005EA5;
+    border: 3px solid #005EA5;
+    color: white;
+}
+
+.toast-success .toast-header { background-color: #E5EFEB; color: #006435;}
+.toast-normal .toast-header { background-color: #005EA5; color: white;}
 .toast-title { font-weight: bolder; font-size: 1rem;}
-.toast-icon { margin-right: 5px; font-size: 1rem; color: #006435;}
+.toast-success .toast-icon { margin-right: 5px; font-size: 1rem; color: #006435;}
+.toast-normal .toast-icon { margin-right: 5px; font-size: 1rem; color: white;}
+
 
 .show-anim {
     animation-name: toast-show;

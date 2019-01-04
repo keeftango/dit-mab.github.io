@@ -14,6 +14,10 @@
         <script type="text/javascript">
             $(document).ready(function(){
 
+
+                $('.toast').toast('');
+
+                /*
                 $('div.toast').addClass('show show-anim');
 
                 setTimeout(function() {
@@ -23,6 +27,7 @@
                         alert("The paragraph is now hidden");
                     });
                 }, 5000);
+                */
 
             });
         </script>
@@ -30,7 +35,7 @@
     <body>
 
         <!-- Then put toasts within -->
-        <div class="toast toast-success" style="position: absolute;">
+        <div class="toast toast-success show" style="position: absolute;">
             <div class="toast-header">
                 <strong class="mr-auto toast-title"><i class='fas toast-icon'>&#xf058;</i> Barrier added to the service</strong>
                 <small>Just now</small>
