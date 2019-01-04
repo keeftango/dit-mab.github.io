@@ -107,13 +107,17 @@ ul.note-actions a {
     top: 15px;
     right: 15px;
     z-index:100000;
-    background-color: rgb(229,239,235,0.95);
     min-width :500px;
     max-width: 500px;
-    border: 4px solid #006435;
-    border-radius: none;
     color: black;
+    border-radius:0;
 }
+
+.toast-success {
+    background-color: rgb(229,239,235,0.95);
+    border: 5px solid #006435;
+}
+
 .toast-header { background-color: #E5EFEB; color: black;}
 .toast-title { font-weight: bolder; font-size: 1rem;}
 .toast-icon { margin-right: 5px; font-size: 1rem; color: #006435;}
