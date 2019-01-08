@@ -68,6 +68,9 @@ ul.list-sectors {
     float: right;
     margin-right: 5px;
 }
+.detail-block h5.link {
+    color: #005EA5;
+}
 .detail-block h5.closed {
     margin-bottom: 0;
 }
